@@ -2,6 +2,12 @@
 
 A Claude Skill that helps developers make software architecture decisions, especially developers without much architecture experience.
 
+<p align="center">
+  <a href="architecture-advisor-roadmap.png">
+    <img src="architecture-advisor-roadmap.png" width="720" alt="Architecture advisor roadmap: context questions first (platform, team size, scale, ops capacity, domain coupling, consistency, time to ship, budget), then four approved stages (Foundation, Access & Interface, Runtime Behavior, Operations) covering 21 decision categories, ending in a summary of every approved decision. Each decision is shown as a table of options with pros, cons, a recommendation and an approval checkbox.">
+  </a>
+</p>
+
 ## What it does
 - **Two modes:** a narrow question ("REST or GraphQL?") gets a focused answer. A new project gets a full, staged walkthrough.
 - **Context first:** before recommending anything, it asks about platform, team size, scale, ops capacity, domain coupling, consistency needs, time-to-ship and budget.
